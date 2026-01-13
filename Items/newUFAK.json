@@ -1,0 +1,103 @@
+{
+  "6915e681e8b8b510a195ab7d": {
+    "itemTplToClone": "590c657e86f77412b013051d",
+    "parentId": "5448f39d4bdc2d0a728b4568",
+    "handbookParentId": "5b47574386f77428ca22b338",
+    "overrideProperties": {
+      "AnimationVariantsNumber": 2,
+      "BackgroundColor": "violet",
+      "CanRequireOnRagfair": true,
+      "CanSellOnRagfair": true,
+      "MaxHpResource": 1200,
+      "RarityPvE": "Rare",
+      "hpResourceRate": 170,
+      "medEffectType": "duringUse",
+      "medUseTime": 5,
+      "Height": 1,
+      "Width": 1,
+      "effects_damage": {
+        "Contusion": {
+          "cost": 0,
+          "delay": 0,
+          "duration": 0,
+          "fadeOut": 0
+        },
+        "Fracture": {
+          "cost": 60,
+          "delay": 0,
+          "duration": 0,
+          "fadeOut": 0
+        },
+        "HeavyBleeding": {
+          "cost": 120,
+          "delay": 0,
+          "duration": 0,
+          "fadeOut": 0
+        },
+        "LightBleeding": {
+          "cost": 30,
+          "delay": 0,
+          "duration": 0,
+          "fadeOut": 0
+        },
+        "RadExposure": {
+          "cost": 0,
+          "delay": 0,
+          "duration": 0,
+          "fadeOut": 0
+        }
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "UFAK first aid kit",
+        "shortName": "UFAK",
+        "description": ""
+      }
+    },
+    "fleaPriceRoubles": 112598,
+    "handbookPriceRoubles": 35042,
+    "addtoBots": true,
+    "addtoModSlots": true,
+    "addtoStaticLootContainers": true,
+    "addtoSpecialSlots": true,
+    "staticLootContainers": [
+      {
+        "probability": 555,
+        "containerName": "LOOTCONTAINER_DEAD_SCAV"
+      },
+      {
+        "probability": 555,
+        "containerName": "LOOTCONTAINER_AIRDROP_MEDICAL_CRATE"
+      },
+      {
+        "probability": 555,
+        "containerName": "LOOTCONTAINER_DUFFLE_BAG"
+      },
+      {
+        "probability": 555,
+        "containerName": "LOOTCONTAINER_DUFFLE_BAG_ADV"
+      },
+      {
+        "probability": 555,
+        "containerName": "LOOTCONTAINER_LAB_TECHNICIAN_BODY"
+      },
+      {
+        "probability": 555,
+        "containerName": "LOOTCONTAINER_MEDBAG_SMU06"
+      },
+      {
+        "probability": 555,
+        "containerName": "LOOTCONTAINER_MEDBAG_SMU06_ADV"
+      },
+      {
+        "probability": 555,
+        "containerName": "LOOTCONTAINER_MEDCASE"
+      },
+      {
+        "probability": 555,
+        "containerName": "LOOTCONTAINER_MEDICAL_SUPPLY_CRATE"
+      }
+    ]
+  }
+}

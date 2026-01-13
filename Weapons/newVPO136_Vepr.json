@@ -1,0 +1,153 @@
+{
+  "6962251783caa3b5c98e282a": {
+    "itemTplToClone": "5ac66d725acfc43b321d4b60",
+    "parentId": "5447b5f14bdc2d61278b4567",
+    "handbookParentId": "5b5f78e986f77447ed5636b1",
+    "overrideProperties": {
+      "ammoCaliber": "Caliber762x39",
+      "BackgroundColor": "violet",
+	  "BurstShotsCount": 2,
+      "CanRequireOnRagfair": true,
+      "CanSellOnRagfair": true,
+      "defAmmo": "64b7af5a8532cf95ee0a0dbd",
+      "defMagType": "59d625f086f774661516605d",
+      "Ergonomics": 29,
+      "RarityPvE": "Rare",
+      "RecoilForceBack": 288,
+      "RecoilForceUp": 110,
+      "RepairCost": 277,
+      "weapClass": "assaultRifle",
+      "weapFireType": [
+        "single",
+        "burst"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Molot Arms VPO-136 Vepr-KM short 7.62x39 carbine",
+        "shortName": "VPO-136 short",
+        "description": ""
+      }
+    },
+    "masteries": true,
+    "fleaPriceRoubles": 55125,
+    "handbookPriceRoubles": 47168,
+    "addtoBots": true,
+    "addtoModSlots": true,
+    "addtoStaticLootContainers": true,
+    "addtoTraders": false,
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "6962252d64a48b14edf3762e",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "VPO-136 Vepr short Default",
+        "_encyclopedia": "6962251783caa3b5c98e282a",
+        "_parent": "6962255e7adbd3e1e5a7a247",
+        "_items": [
+          {
+            "_id": "6962255e7adbd3e1e5a7a247",
+            "_tpl": "6962251783caa3b5c98e282a"
+          },
+          {
+            "_id": "69622573bf7f9d98bdf427a6",
+            "_tpl": "59c6633186f7740cf0493bb9",
+            "parentId": "6962255e7adbd3e1e5a7a247",
+            "slotId": "mod_gas_block"
+          },
+          {
+            "_id": "6962281c18b197ea0299bb6b",
+            "_tpl": "59e6284f86f77440d569536f",
+            "parentId": "69622573bf7f9d98bdf427a6",
+            "slotId": "mod_handguard"
+          },
+          {
+            "_id": "6962257ce4fe767a28831bd6",
+            "_tpl": "5ac72e7d5acfc40016339a02",
+            "parentId": "6962255e7adbd3e1e5a7a247",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "696225807ebd02c25e91074a",
+            "_tpl": "59e62cc886f77440d40b52a1",
+            "parentId": "6962255e7adbd3e1e5a7a247",
+            "slotId": "mod_pistol_grip"
+          },
+          {
+            "_id": "69622583223100e3deca9cd0",
+            "_tpl": "5ac50da15acfc4001718d287",
+            "parentId": "6962255e7adbd3e1e5a7a247",
+            "slotId": "mod_reciever"
+          },
+          {
+            "_id": "69622586d92d93f2436e1835",
+            "_tpl": "5ac733a45acfc400192630e2",
+            "parentId": "6962255e7adbd3e1e5a7a247",
+            "slotId": "mod_sight_rear"
+          },
+          {
+            "_id": "69622589f464d42098e26347",
+            "_tpl": "6386300124a1dc425c00577a",
+            "parentId": "6962255e7adbd3e1e5a7a247",
+            "slotId": "mod_stock"
+          },
+          {
+            "_id": "6962258df295027100971268",
+            "_tpl": "5a01c29586f77474660c694c",
+            "parentId": "6962255e7adbd3e1e5a7a247",
+            "slotId": "mod_magazine"
+          }
+        ]
+      }
+    ],
+
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 569
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 456
+      },
+      {
+        "containerName": "LOOTCONTAINER_LONG_WEAPON_BOX",
+        "probability": 677
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 566
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 544
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 581
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 459
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+        "probability": 478
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
+        "probability": 562
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 670
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE_5X2_2",
+        "probability": 455
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "69544de8ba60a7bcb3ce86c5": {
+    "itemTplToClone": "6740987b89d5e1ddc603f4f0",
+    "parentId": "590c745b86f7743cc433c5f2",
+    "handbookParentId": "5b619f1a86f77450a702a6f3",
+    "overrideProperties": {
+      "BackgroundColor": "red",
+      "CanRequireOnRagfair": true,
+      "CanSellOnRagfair": true,
+	  "ExamineExperience": 250,
+	  "LootExperience": 500,
+	  "HideEntrails": true,
+      "RarityPvE": "Superrare"
+    },
+    "locales": {
+      "en": {
+        "name": "High Value Intel",
+        "shortName": "High Value Intel",
+        "description": "What is in there? Is it only for making bank? Guess so."
+      }
+    },
+    "fleaPriceRoubles": 5000000,
+    "handbookPriceRoubles": 5000000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "probability": 20,
+        "containerName": "LOOTCONTAINER_DEAD_SCAV"
+      },
+      {
+        "probability": 20,
+        "containerName": "LOOTCONTAINER_DEAD_SCAV_4X4_2"
+      },
+      {
+        "probability": 20,
+        "containerName": "LOOTCONTAINER_PMC_BODY"
+      },
+      {
+        "probability": 20,
+        "containerName": "LOOTCONTAINER_SCAV_BODY"
+      }
+    ]
+  }
+}

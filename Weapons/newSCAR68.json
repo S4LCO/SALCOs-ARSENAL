@@ -1,0 +1,340 @@
+{
+  "691ba4785e6cf9012ca2742c": {
+    "itemTplToClone": "676176d362e0497044079f4c",
+    "parentId": "5447b5f14bdc2d61278b4567",
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "overrideProperties": {
+      "ammoCaliber": "Caliber68x51",
+      "bFirerate": 750,
+      "BackgroundColor": "violet",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": false,
+      "defAmmo": "6529243824cbe3c74a05e5c1",
+      "defMagType": "65293c38fc460e50a509cb25",
+      "Ergonomics": 47,
+      "RarityPvE": "Superrare",
+      "RecoilForceBack": 450,
+      "RecoilForceUp": 179,
+      "RepairCost": 350,
+      "weapClass": "assaultRifle",
+      "weapFireType": [
+        "fullauto",
+        "single"
+      ],
+      "Chambers": [
+        {
+          "_name": "patron_in_weapon",
+          "_id": "691ba4785e6cf9012ca27401",
+          "_parent": "691ba4785e6cf9012ca2742c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6529243824cbe3c74a05e5c1",
+                  "6529302b8c26af6326029fb7"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d4af244bdc2d962f8b4571"
+        }
+      ],
+      "Slots": [
+        {
+          "_name": "mod_pistol_grip",
+          "_id": "691ba4785e6cf9012ca27402",
+          "_parent": "691ba4785e6cf9012ca2742c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "55d4b9964bdc2d1d4e8b456e",
+                  "571659bb2459771fb2755a12",
+                  "602e71bd53a60014f9705bfa",
+                  "6113c3586c780c1e710c90bc",
+                  "6113cc78d3a39d50044c065a",
+                  "6113cce3d92c473c770200c7",
+                  "5cc9bcaed7f00c011c04e179",
+                  "5bb20e18d4351e00320205d5",
+                  "5bb20e0ed4351e3bac1212dc",
+                  "6193dcd0f8ee7e52e4210a28",
+                  "5d025cc1d7ad1a53845279ef",
+                  "5c6d7b3d2e221600114c9b7d",
+                  "57c55efc2459772d2c6271e7",
+                  "57af48872459771f0b2ebf11",
+                  "57c55f092459772d291a8463",
+                  "57c55f112459772d28133310",
+                  "57c55f172459772d27602381",
+                  "5a339805c4a2826c6e06d73d",
+                  "55802f5d4bdc2dac148b458f",
+                  "5d15cf3bd7ad1a67e71518b2",
+                  "59db3a1d86f77429e05b4e92",
+                  "5fbcbd6c187fea44d52eda14",
+                  "59db3acc86f7742a2c4ab912",
+                  "59db3b0886f77429d72fb895",
+                  "615d8faecabb9b7ad90f4d5d",
+                  "5b07db875acfc40dc528a5f6",
+                  "63f5feead259b42f0b4d6d0f",
+                  "652911675ae2ae97b80fdf3c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_magazine",
+          "_id": "691ba4785e6cf9012ca27403",
+          "_parent": "691ba4785e6cf9012ca2742c",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "65293c38fc460e50a509cb25",
+                  "65293c7a17e14363030ad308"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577"
+        },
+        {
+          "_name": "mod_reciever",
+          "_id": "691ba4785e6cf9012ca27404",
+          "_parent": "691ba4785e6cf9012ca2742c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6165adcdd3a39d50044c120f",
+                  "6165aeedfaa1272e431521e3"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_stock",
+          "_id": "691ba4785e6cf9012ca27405",
+          "_parent": "691ba4785e6cf9012ca2742c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "61816734d8e3106d9806c1f3",
+                  "61825d06d92c473c770215de",
+                  "66ffc246a81a4f85e70d4d06",
+                  "66ffbfb1a73a7bce3d0b45a8",
+                  "66ffc20ba73a7bce3d0b45ab"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_charge",
+          "_id": "691ba4785e6cf9012ca27406",
+          "_parent": "691ba4785e6cf9012ca2742c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6181688c6c780c1e710c9b04"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+
+    "locales": {
+      "en": {
+        "name": "SCAR-68 6.8x51 assault rifle",
+        "shortName": "SCAR-68",
+        "description": "Modified to 6.8x51mm caliber."
+      }
+    },
+
+    "masteries": true,
+    "fleaPriceRoubles": 126588,
+    "handbookPriceRoubles": 126588,
+    "addtoBots": true,
+    "addtoModSlots": true,
+    "addtoStaticLootContainers": true,
+    "addtoTraders": false,
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "68f0a1b2c3d4e5f67890b301",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "SCAR-68 Default",
+        "_encyclopedia": "691ba4785e6cf9012ca2742c",
+        "_parent": "68f0a1b2c3d4e5f67890b302",
+        "_items": [
+          {
+            "_id": "68f0a1b2c3d4e5f67890b302",
+            "_tpl": "691ba4785e6cf9012ca2742c",
+            "upd": {
+              "FireMode": {
+                "FireMode": "single"
+              },
+              "Foldable": {
+                "Folded": false
+              }
+            }
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890b303",
+            "_tpl": "55d4b9964bdc2d1d4e8b456e",
+            "parentId": "68f0a1b2c3d4e5f67890b302",
+            "slotId": "mod_pistol_grip"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890b304",
+            "_tpl": "65293c38fc460e50a509cb25",
+            "parentId": "68f0a1b2c3d4e5f67890b302",
+            "slotId": "mod_magazine"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890b305",
+            "_tpl": "6165adcdd3a39d50044c120f",
+            "parentId": "68f0a1b2c3d4e5f67890b302",
+            "slotId": "mod_reciever"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890b306",
+            "_tpl": "6183b084a112697a4b3a6e6c",
+            "parentId": "68f0a1b2c3d4e5f67890b305",
+            "slotId": "mod_barrel"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890b307",
+            "_tpl": "618178aa1cb55961fa0fdc80",
+            "parentId": "68f0a1b2c3d4e5f67890b306",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890b308",
+            "_tpl": "61816fcad92c473c770215cc",
+            "parentId": "68f0a1b2c3d4e5f67890b306",
+            "slotId": "mod_sight_front"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890b309",
+            "_tpl": "61817865d3a39d50044c13a4",
+            "parentId": "68f0a1b2c3d4e5f67890b305",
+            "slotId": "mod_sight_rear"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890b30a",
+            "_tpl": "61816df1d3a39d50044c139e",
+            "parentId": "68f0a1b2c3d4e5f67890b305",
+            "slotId": "mod_mount_000"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890b30b",
+            "_tpl": "61816dfa6ef05c2ce828f1ad",
+            "parentId": "68f0a1b2c3d4e5f67890b305",
+            "slotId": "mod_mount_001"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890b30c",
+            "_tpl": "61816734d8e3106d9806c1f3",
+            "parentId": "68f0a1b2c3d4e5f67890b302",
+            "slotId": "mod_stock"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890b30d",
+            "_tpl": "618167528004cc50514c34f9",
+            "parentId": "68f0a1b2c3d4e5f67890b30c",
+            "slotId": "mod_stock_001"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890b30e",
+            "_tpl": "618167616ef05c2ce828f1a8",
+            "parentId": "68f0a1b2c3d4e5f67890b30d",
+            "slotId": "mod_stock"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890b30f",
+            "_tpl": "618167441cb55961fa0fdc71",
+            "parentId": "68f0a1b2c3d4e5f67890b30c",
+            "slotId": "mod_stock_002"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890b310",
+            "_tpl": "6181688c6c780c1e710c9b04",
+            "parentId": "68f0a1b2c3d4e5f67890b302",
+            "slotId": "mod_charge"
+          }
+        ]
+      }
+    ],
+
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 569
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 456
+      },
+      {
+        "containerName": "LOOTCONTAINER_LONG_WEAPON_BOX",
+        "probability": 677
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 544
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 581
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 459
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+        "probability": 478
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
+        "probability": 562
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 670
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE_5X2_2",
+        "probability": 455
+      }
+    ]
+  }
+}

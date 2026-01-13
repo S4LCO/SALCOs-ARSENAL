@@ -1,0 +1,153 @@
+{
+  "6919fbf54cb2293b32ace0d5": {
+    "itemTplToClone": "5ac66d015acfc400180ae6e4",
+    "parentId": "5447b5f14bdc2d61278b4567",
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "overrideProperties": {
+      "ammoCaliber": "Caliber556x45NATO",
+      "bFirerate": 750,
+      "BackgroundColor": "violet",
+      "CanRequireOnRagfair": true,
+      "CanSellOnRagfair": true,
+      "defAmmo": "59e6920f86f77411d82aa167",
+      "defMagType": "5ac66c5d5acfc4001718d314",
+      "Ergonomics": 38,
+      "RarityPvE": "Rare",
+      "RecoilForceBack": 298,
+      "RecoilForceUp": 105,
+      "RepairCost": 265,
+      "weapClass": "assaultRifle",
+      "weapFireType": [
+        "fullauto",
+        "single"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Kalashnikov AK-102 5.56x45 assault rifle - #V2",
+        "shortName": "AK-102 V2",
+        "description": "Modified to a higher fire rate."
+      }
+    },
+    "masteries": true,
+    "fleaPriceRoubles": 68798,
+    "handbookPriceRoubles": 67541,
+    "addtoBots": true,
+    "addtoModSlots": true,
+    "addtoStaticLootContainers": true,
+    "addtoTraders": false,
+
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "68f0a1b2c3d4e5f67890ab01",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "AK-102 V2 default",
+        "_encyclopedia": "6919fbf54cb2293b32ace0d5",
+        "_parent": "68f0a1b2c3d4e5f67890ab02",
+        "_items": [
+          {
+            "_id": "68f0a1b2c3d4e5f67890ab02",
+            "_tpl": "6919fbf54cb2293b32ace0d5"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890ab03",
+            "_tpl": "59c6633186f7740cf0493bb9",
+            "parentId": "68f0a1b2c3d4e5f67890ab02",
+            "slotId": "mod_gas_block"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890ab04",
+            "_tpl": "5648b1504bdc2d9d488b4584",
+            "parentId": "68f0a1b2c3d4e5f67890ab03",
+            "slotId": "mod_handguard"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890ab05",
+            "_tpl": "5ac72e725acfc400180ae701",
+            "parentId": "68f0a1b2c3d4e5f67890ab02",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890ab06",
+            "_tpl": "5649ade84bdc2d1b2b8b4587",
+            "parentId": "68f0a1b2c3d4e5f67890ab02",
+            "slotId": "mod_pistol_grip"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890ab07",
+            "_tpl": "5ac50da15acfc4001718d287",
+            "parentId": "68f0a1b2c3d4e5f67890ab02",
+            "slotId": "mod_reciever"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890ab08",
+            "_tpl": "5ac733a45acfc400192630e2",
+            "parentId": "68f0a1b2c3d4e5f67890ab02",
+            "slotId": "mod_sight_rear"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890ab09",
+            "_tpl": "5ac50c185acfc400163398d4",
+            "parentId": "68f0a1b2c3d4e5f67890ab02",
+            "slotId": "mod_stock"
+          },
+          {
+            "_id": "68f0a1b2c3d4e5f67890ab0a",
+            "_tpl": "5ac66c5d5acfc4001718d314",
+            "parentId": "68f0a1b2c3d4e5f67890ab02",
+            "slotId": "mod_magazine"
+          }
+        ]
+      }
+    ],
+
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 569
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 456
+      },
+      {
+        "containerName": "LOOTCONTAINER_LONG_WEAPON_BOX",
+        "probability": 677
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 566
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 544
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 581
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 459
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+        "probability": 478
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
+        "probability": 562
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 670
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE_5X2_2",
+        "probability": 455
+      }
+    ]
+  }
+}
