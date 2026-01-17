@@ -1,5 +1,5 @@
-READ CAREFULLY.
-IF ENGLISCH IS NOT YOUR NATIVE LANGUAGE, USE A TRANSLATOR
+IF YOU CHANGE FROM SALCOS ARSENAL WITH TRADER TO THIS VERSION - READ CAREFULLY!!!
+IF ENGLISCH IS NOT YOUR NATIVE LANGUAGE, USE A TRANSLATOR!
 
 
 STEP 1:
@@ -7,7 +7,7 @@ Go to .../SPT/user/ and make a backup of the "profiles" folder.
 
 
 STEP 2:
-Go to .../SPT/user/mods and delete the "SalcosRsenal_v1.0.0" folder.
+Go to .../SPT/user/mods and delete the "SalcosArsenal_v1.0.0" folder.
 
 
 STEP 3:
@@ -41,5 +41,6 @@ Wherever you see "false", change it to "true", save the file and restart the ser
 STEP 8:
 Then close the game completely and undo step 7 (change everything you changed to "true" back to "false").
 Then save the file again and you can start the game normally.
+
 
 SPT should now have removed the trader from your profile.
