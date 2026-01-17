@@ -1,36 +1,39 @@
 {
-  "695f5e657c7f9acb57b55771": {
-    "itemTplToClone": "65290f395ae2ae97b80fdf2d",
+  "6968db29b5e3a73ca4cafbf7": {
+    "itemTplToClone": "5df8ce05b11454561e39243b",
     "parentId": "5447b5f14bdc2d61278b4567",
-    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "handbookParentId": "5b5f78e986f77447ed5636b1",
     "overrideProperties": {
       "ammoCaliber": "Caliber68x51",
       "bFirerate": 800,
+      "bHearDist": 60,
+      "bEffDist": 500,
       "BackgroundColor": "violet",
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": true,
+      "CanSellOnRagfair": true,
       "defAmmo": "6529243824cbe3c74a05e5c1",
       "defMagType": "65293c38fc460e50a509cb25",
-      "Ergonomics": 46,
+      "Ergonomics": 45,
       "RarityPvE": "Superrare",
-      "RecoilForceBack": 372,
+      "RecoilForceBack": 341,
       "RecoilForceUp": 130,
-      "RepairCost": 265,
+      "RepairCost": 271,
+	  "Weight": 0.31,
       "weapClass": "assaultRifle",
       "weapFireType": [
-        "fullauto",
-        "burst",
         "single"
       ],
       "Slots": [
         {
           "_name": "mod_pistol_grip",
-          "_id": "695f6735cc2211861ad8ccfe",
-          "_parent": "695f5e657c7f9acb57b55771",
+          "_id": "6968dd539a9a06cee5a0d22e",
+          "_parent": "6968db29b5e3a73ca4cafbf7",
           "_props": {
             "filters": [
               {
                 "Filter": [
+                  "5c0e2ff6d174af02a1659d4a",
+                  "5a33e75ac4a2826c6e06d759",
                   "55d4b9964bdc2d1d4e8b456e",
                   "571659bb2459771fb2755a12",
                   "602e71bd53a60014f9705bfa",
@@ -56,8 +59,8 @@
                   "59db3acc86f7742a2c4ab912",
                   "59db3b0886f77429d72fb895",
                   "615d8faecabb9b7ad90f4d5d",
-                  "5b07db875acfc40dc528a5f6",
                   "63f5feead259b42f0b4d6d0f",
+                  "5b07db875acfc40dc528a5f6",
                   "652911675ae2ae97b80fdf3c"
                 ],
                 "Shift": 0
@@ -70,8 +73,8 @@
         },
         {
           "_name": "mod_magazine",
-          "_id": "695f673e72353580204f1dd3",
-          "_parent": "695f5e657c7f9acb57b55771",
+          "_id": "6968dd5b8200ce69ab0ce1db",
+          "_parent": "6968db29b5e3a73ca4cafbf7",
           "_props": {
             "filters": [
               {
@@ -93,14 +96,14 @@
         },
         {
           "_name": "mod_reciever",
-          "_id": "695f674718518d7c92745f1f",
-          "_parent": "695f5e657c7f9acb57b55771",
+          "_id": "6968dd5f27b19506182973a2",
+          "_parent": "6968db29b5e3a73ca4cafbf7",
           "_props": {
             "filters": [
               {
                 "Filter": [
-                  "6529119424cbe3c74a05e5bb",
-                  "695f6b5795f913e348301276"
+                  "5df8e4080b92095fd441e594",
+                  "6968e042e36b300deffb851f"
                 ],
                 "Shift": 0
               }
@@ -111,21 +114,28 @@
           "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_name": "mod_stock_000",
-          "_id": "695f674bbfa8bdb36b674788",
-          "_parent": "695f5e657c7f9acb57b55771",
+          "_name": "mod_stock",
+          "_id": "6968dd636bd8a7ba6799cc57",
+          "_parent": "6968db29b5e3a73ca4cafbf7",
           "_props": {
             "filters": [
               {
                 "Filter": [
-                  "58ac1bf086f77420ed183f9f",
-                  "5894a13e86f7742405482982",
-                  "5fbcc429900b1d5091531dd7",
-                  "5fbcc437d724d907e2077d5c",
-                  "5c5db6ee2e221600113fba54",
-                  "5c5db6f82e2216003a0fe914",
-                  "6529348224cbe3c74a05e5c4",
-                  "6761496fe2cf1419500357e9"
+                  "5a33ca0fc4a282000d72292f",
+                  "5c0faeddd174af02a962601f",
+                  "5649be884bdc2d79388b4577",
+                  "5d120a10d7ad1a4e1026ba85",
+                  "5b0800175acfc400153aebd4",
+                  "5947e98b86f774778f1448bc",
+                  "5947eab886f77475961d96c5",
+                  "602e3f1254072b51b239f713",
+                  "5c793fb92e221644f31bfb64",
+                  "5c793fc42e221600114ca25d",
+                  "591aef7986f774139d495f03",
+                  "591af10186f774139d495f0e",
+                  "627254cc9c563e6e442c398f",
+                  "638de3603a1a4031d8260b8c",
+                  "6761777a1f08ed5e8800b7ac"
                 ],
                 "Shift": 0
               }
@@ -137,15 +147,22 @@
         },
         {
           "_name": "mod_charge",
-          "_id": "695f675078bf045d51879b8e",
-          "_parent": "695f5e657c7f9acb57b55771",
+          "_id": "6968dd678bfc27cc56d09c2e",
+          "_parent": "6968db29b5e3a73ca4cafbf7",
           "_props": {
             "filters": [
               {
                 "Filter": [
-                  "6529109524cbe3c74a05e5b7",
+                  "5c0faf68d174af02a96260b8",
+                  "56ea7165d2720b6e518b4583",
+                  "55d44fd14bdc2d962f8b456e",
+                  "5ea16d4d5aad6446a939753d",
+                  "5bb20dbcd4351e44f824c04e",
+                  "6033749e88382f4fab3fd2c5",
+                  "5b2240bf5acfc40dc528af69",
                   "5d44334ba4b9362b346d1948",
-                  "5f633ff5c444ce7e3c30a006"
+                  "5f633ff5c444ce7e3c30a006",
+                  "651bf5617b3b552ef6712cb7"
                 ],
                 "Shift": 0
               }
@@ -155,28 +172,48 @@
           "_mergeSlotWithChildren": false,
           "_proto": "55d30c4c4bdc2db4468b457e"
         }
+      ],
+      "Chambers": [
+        {
+          "_name": "patron_in_weapon",
+          "_id": "6968f0403de3b4a121a12dd4",
+          "_parent": "6968db29b5e3a73ca4cafbf7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6529243824cbe3c74a05e5c1",
+                  "6529302b8c26af6326029fb7"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d4af244bdc2d962f8b4571"
+        }
       ]
     },
     "locales": {
       "en": {
-        "name": "SIG MCX-SPEAR 6.8x51 assault rifle - #V2",
-        "shortName": "SPEAR 6.8 V2",
+        "name": "Knight's Armament Company SR-25 6.8x51 carbine",
+        "shortName": "SR-25",
         "description": ""
       }
     },
     "masteries": true,
-    "fleaPriceRoubles": 219734,
-    "handbookPriceRoubles": 219734,
+    "fleaPriceRoubles": 283466,
+    "handbookPriceRoubles": 283466,
     "addWeaponPreset": true,
     "weaponPresets": [
       {
         "_changeWeaponName": false,
-        "_encyclopedia": "695f5e657c7f9acb57b55771",
-        "_id": "6961113bfd2c0668cdc4017f",
+        "_encyclopedia": "6968db29b5e3a73ca4cafbf7",
+        "_id": "6969aa000000000000000001",
         "_items": [
           {
-            "_id": "657eb3773271d8578610fe29",
-            "_tpl": "695f5e657c7f9acb57b55771",
+            "_id": "6969aa000000000000000002",
+            "_tpl": "6968db29b5e3a73ca4cafbf7",
             "upd": {
               "FireMode": {
                 "FireMode": "single"
@@ -188,74 +225,80 @@
             }
           },
           {
-            "_id": "657eb3773271d8578610fe2a",
-            "_tpl": "5a339805c4a2826c6e06d73d",
-            "parentId": "657eb3773271d8578610fe29",
+            "_id": "6969aa000000000000000003",
+            "_tpl": "55d4b9964bdc2d1d4e8b456e",
+            "parentId": "6969aa000000000000000002",
             "slotId": "mod_pistol_grip"
           },
           {
-            "_id": "657eb3773271d8578610fe2b",
-            "_tpl": "65293c38fc460e50a509cb25",
-            "parentId": "657eb3773271d8578610fe29",
+            "_id": "6969aa000000000000000004",
+            "_tpl": "5df8f541c41b2312ea3335e3",
+            "parentId": "6969aa000000000000000002",
             "slotId": "mod_magazine"
           },
           {
-            "_id": "657eb3773271d8578610fe2c",
-            "_tpl": "695f6b5795f913e348301276",
-            "parentId": "657eb3773271d8578610fe29",
-            "slotId": "mod_reciever"
-          },
-          {
-            "_id": "657eb3773271d8578610fe2d",
-            "_tpl": "558022b54bdc2dac148b458d",
-            "parentId": "657eb3773271d8578610fe2c",
-            "slotId": "mod_scope"
-          },
-          {
-            "_id": "657eb3773271d8578610fe2f",
-            "_tpl": "695f797fbc970a9b09104950",
-            "parentId": "657eb3773271d8578610fe2c",
-            "slotId": "mod_barrel"
-          },
-          {
-            "_id": "657eb3773271d8578610fe30",
-            "_tpl": "6642f63667f5cb56a00662eb",
-            "parentId": "657eb3773271d8578610fe2f",
-            "slotId": "mod_muzzle"
-          },
-          {
-            "_id": "657eb3773271d8578610fe33",
-            "_tpl": "652910ef50dc782999054b97",
-            "parentId": "657eb3773271d8578610fe2c",
-            "slotId": "mod_handguard"
-          },
-          {
-            "_id": "657eb3773271d8578610fe34",
-            "_tpl": "6529348224cbe3c74a05e5c4",
-            "parentId": "657eb3773271d8578610fe29",
-            "slotId": "mod_stock_000"
-          },
-          {
-            "_id": "657eb3773271d8578610fe35",
-            "_tpl": "6529366450dc782999054ba0",
-            "parentId": "657eb3773271d8578610fe34",
+            "_id": "6969aa000000000000000005",
+            "_tpl": "5649be884bdc2d79388b4577",
+            "parentId": "6969aa000000000000000002",
             "slotId": "mod_stock"
           },
           {
-            "_id": "657eb3773271d8578610fe36",
-            "_tpl": "6529370c405a5f51dd023db8",
-            "parentId": "657eb3773271d8578610fe35",
+            "_id": "6969aa000000000000000006",
+            "_tpl": "5ae30c9a5acfc408fb139a03",
+            "parentId": "6969aa000000000000000005",
             "slotId": "mod_stock_000"
           },
           {
-            "_id": "657eb3773271d8578610fe37",
-            "_tpl": "6529109524cbe3c74a05e5b7",
-            "parentId": "657eb3773271d8578610fe29",
+            "_id": "6969aa000000000000000007",
+            "_tpl": "5df8e4080b92095fd441e594",
+            "parentId": "6969aa000000000000000002",
+            "slotId": "mod_reciever"
+          },
+          {
+            "_id": "6969aa000000000000000008",
+            "_tpl": "5df917564a9f347bc92edca3",
+            "parentId": "6969aa000000000000000007",
+            "slotId": "mod_barrel"
+          },
+          {
+            "_id": "6969aa000000000000000009",
+            "_tpl": "5dfa3cd1b33c0951220c079b",
+            "parentId": "6969aa000000000000000008",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "6969aa00000000000000000a",
+            "_tpl": "5dfa3d45dfc58d14537c20b0",
+            "parentId": "6969aa000000000000000008",
+            "slotId": "mod_gas_block"
+          },
+          {
+            "_id": "6969aa00000000000000000b",
+            "_tpl": "5df916dfbb49d91fb446d6b9",
+            "parentId": "6969aa000000000000000007",
+            "slotId": "mod_handguard"
+          },
+          {
+            "_id": "6969aa00000000000000000c",
+            "_tpl": "5dfa3d950dee1b22f862eae0",
+            "parentId": "6969aa00000000000000000b",
+            "slotId": "mod_sight_front"
+          },
+          {
+            "_id": "6969aa00000000000000000d",
+            "_tpl": "5dfa3d7ac41b2312ea33362a",
+            "parentId": "6969aa000000000000000007",
+            "slotId": "mod_sight_rear"
+          },
+          {
+            "_id": "6969aa00000000000000000e",
+            "_tpl": "5df8e053bb49d91fb446d6a6",
+            "parentId": "6969aa000000000000000002",
             "slotId": "mod_charge"
           }
         ],
-        "_name": "SIG MCX SPEAR Default",
-        "_parent": "657eb3773271d8578610fe29",
+        "_name": "SR-25 Carbine Default",
+        "_parent": "6969aa000000000000000002",
         "_type": "Preset"
       }
     ],
@@ -306,8 +349,8 @@
       }
     ],
     "addtoBots": true,
-    "addToModSlots": true,
+    "addtoModSlots": true,
     "addtoStaticLootContainers": true,
-    "addToTraders": false
+    "addtoTraders": false
   }
 }

@@ -19,25 +19,25 @@
         "description": "What is in there? Is it only for making bank? Guess so."
       }
     },
-    "fleaPriceRoubles": 5000000,
+    "fleaPriceRoubles": 15000000,
     "handbookPriceRoubles": 5000000,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
     "staticLootContainers": [
       {
-        "probability": 20,
+        "probability": 10,
         "containerName": "LOOTCONTAINER_DEAD_SCAV"
       },
       {
-        "probability": 20,
+        "probability": 10,
         "containerName": "LOOTCONTAINER_DEAD_SCAV_4X4_2"
       },
       {
-        "probability": 20,
+        "probability": 10,
         "containerName": "LOOTCONTAINER_PMC_BODY"
       },
       {
-        "probability": 20,
+        "probability": 10,
         "containerName": "LOOTCONTAINER_SCAV_BODY"
       }
     ]
