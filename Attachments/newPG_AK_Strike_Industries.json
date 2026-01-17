@@ -75,7 +75,7 @@
     "modSlot": [
       "mod_pistol_grip"
     ],
-    "addtostaticLootContainers": true,
+    "addtoStaticLootContainers": true,
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",

@@ -85,7 +85,7 @@
     "modSlot": [
       "mod_muzzle"
     ],
-    "addtostaticLootContainers": true,
+    "addtoStaticLootContainers": true,
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_DEAD_SCAV",

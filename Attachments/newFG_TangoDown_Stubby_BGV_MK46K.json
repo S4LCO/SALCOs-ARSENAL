@@ -77,7 +77,7 @@
     "modSlot": [
       "mod_foregrip"
     ],
-    "addtostaticLootContainers": true,
+    "addtoStaticLootContainers": true,
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_DEAD_SCAV",
@@ -128,7 +128,7 @@
     "modSlot": [
       "mod_foregrip"
     ],
-    "addtostaticLootContainers": true,
+    "addtoStaticLootContainers": true,
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_DEAD_SCAV",

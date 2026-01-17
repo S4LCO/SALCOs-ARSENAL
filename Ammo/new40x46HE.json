@@ -5,7 +5,9 @@
     "handbookParentId": "5b47574386f77428ca22b33b",
     "overrideProperties": {
       "ArmorDamage": 112,
+	  "ammoType": "grenade",
       "BackgroundColor": "red",
+	  "Caliber": "Caliber40x46",
       "Damage": 333,
       "DurabilityBurnModificator": 1.7,
       "ExplosionStrength": 95,

@@ -73,7 +73,7 @@
     "modSlot": [
       "mod_stock_000"
     ],
-    "addtostaticLootContainers": true,
+    "addtoStaticLootContainers": true,
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
