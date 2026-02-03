@@ -29,7 +29,7 @@
         "5649af884bdc2d1b2b8b4589",
         "649ec2f3961514b22506b111"
       ],
-      "CanRequireOnRagfair": true,
+      "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
       "Ergonomics": 0.5,
       "Recoil": -0.5

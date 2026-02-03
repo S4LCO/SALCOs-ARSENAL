@@ -10,7 +10,7 @@
       "BackgroundColor": "violet",
       "BluntThroughput": 0.29,
       "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": false,
+      "CanSellOnRagfair": true,
 	  "CanPutIntoDuringTheRaid": true,
       "Durability": 40,
       "MaxDurability": 40,

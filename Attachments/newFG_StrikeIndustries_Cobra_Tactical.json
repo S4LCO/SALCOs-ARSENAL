@@ -8,7 +8,7 @@
       "BackgroundColor": "violet",
       "Ergonomics": 14,
       "ConflictingItems": [],
-      "CanRequireOnRagfair": true,
+      "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
       "Recoil": -3.5
     },
@@ -67,7 +67,7 @@
       "BackgroundColor": "violet",
       "Ergonomics": 14,
       "ConflictingItems": [],
-      "CanRequireOnRagfair": true,
+      "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
       "Recoil": -3.5
     },

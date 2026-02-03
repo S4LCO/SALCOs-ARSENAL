@@ -1,12 +1,12 @@
 {
-  "6965ee92928dfed414ef71fd": {
-    "itemTplToClone": "6575d589b15fef3dd4051674",
+  "697d20a29b5b248272343e34": {
+    "itemTplToClone": "6570e90b3a5689d85f08db97",
     "parentId": "65649eb40bf0ed77b8044453",
-    "handbookParentId": "6564b96a189fe36f356d177c",
+    "handbookParentId": "5b5f704686f77447ec5d76d7",
 
     "overrideProperties": {
 	  "ArmorMaterial": "UHMWPE",
-      "armorClass": "6",
+      "armorClass": "4",
       "Durability": 30,
       "MaxDurability": 30,
       "BluntThroughput": 0.32

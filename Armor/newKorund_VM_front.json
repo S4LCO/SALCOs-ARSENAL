@@ -10,7 +10,7 @@
       "BackgroundColor": "violet",
       "BluntThroughput": 0.29,
       "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": false,
+      "CanSellOnRagfair": true,
 	  "CanPutIntoDuringTheRaid": true,
       "Durability": 65,
       "MaxDurability": 65,
@@ -31,7 +31,7 @@
         "description": ""
       }
     },
-    "fleaPriceRoubles": 800000,
+    "fleaPriceRoubles": 850000,
     "handbookPriceRoubles": 53531,
     "addtoBots": true,
     "addtoModSlots": true,

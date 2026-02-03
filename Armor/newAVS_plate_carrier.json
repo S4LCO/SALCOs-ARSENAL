@@ -1,12 +1,23 @@
 {
   "6946eb7e67ba8110a6ddfd5e": {
-    "itemTplToClone": "544a5caa4bdc2d1a388b4568",
+    "itemTplToClone": "60a3c70cde5f453f634816a3",
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
+	  "Prefab": {
+        "path": "assets/content/items/equipment/rig_cryeavs/item_equipment_rig_cryeavs.bundle",
+        "rcid": ""
+      },
+	  "ArmorMaterial": "UHMWPE",
+	  "ArmorType": "Light",
       "BackgroundColor": "violet",
+	  "Height": 4,
+	  "Width": 3,
       "CanRequireOnRagfair": true,
-      "CanSellOnRagfair": true
+      "CanSellOnRagfair": true,
+	  "mousePenalty": -0.5,
+	  "speedPenaltyPercent": -3,
+	  "weaponErgonomicPenalty": -1
     },
     "locales": {
       "en": {
@@ -15,51 +26,81 @@
         "description": "Version 2 with improved built-in armor."
       }
     },
-    "fleaPriceRoubles": 310541,
-    "handbookPriceRoubles": 110500,
+    "fleaPriceRoubles": 342568,
+    "handbookPriceRoubles": 155265,
     "addtoBots": true,
     "addtoStaticLootContainers": true,
     "addWeaponPreset": true,
     "weaponPresets": [
       {
-        "_id": "6946eb7e67ba8110a6ddfd5f",
+        "_id": "697d29e9dd7a8e28b3887c05",
         "_type": "Preset",
         "_changeWeaponName": false,
-        "_name": "Crye Precision AVS (Ranger Green) - #V2 (Standard)",
-        "_parent": "6946eb7e67ba8110a6ddfd60",
+        "_name": "Vest Crye Precision AVS Standard - #V2",
+        "_parent": "697d29ef5aa88882796fe7b9",
         "_items": [
           {
-            "_id": "6946eb7e67ba8110a6ddfd60",
+            "_id": "697d29ef5aa88882796fe7b9",
             "_tpl": "6946eb7e67ba8110a6ddfd5e"
           },
           {
-            "_id": "6946eb7e67ba8110a6ddfd61",
-            "_tpl": "6946ebb44e3088ef0bb4dfbe",
-            "parentId": "6946eb7e67ba8110a6ddfd60",
+            "_id": "697d2a0e013179f5e95c7734",
+            "_tpl": "697d20951906c7b7bb390873",
+            "parentId": "697d29ef5aa88882796fe7b9",
             "slotId": "Soft_armor_front"
           },
           {
-            "_id": "6946eb7e67ba8110a6ddfd62",
-            "_tpl": "6946ebbacf8f3b61ff54d3eb",
-            "parentId": "6946eb7e67ba8110a6ddfd60",
+            "_id": "697d2a183e24cb4332317ea0",
+            "_tpl": "697d209c748c0e6b68e414d0",
+            "parentId": "697d29ef5aa88882796fe7b9",
             "slotId": "Soft_armor_back"
           },
-          {
-            "_id": "6946eb7e67ba8110a6ddfd63",
-            "_tpl": "6946ebc505411b23e69d540f",
-            "parentId": "6946eb7e67ba8110a6ddfd60",
+		  {
+            "_id": "697d2e43d7a03e5bb58cdc12",
+            "_tpl": "6948892f9bd70f7bb323cbaf",
+            "parentId": "697d29ef5aa88882796fe7b9",
+            "slotId": "Soft_armor_left"
+          },
+		  {
+            "_id": "697d2e46ef2cdf0371a5aeec",
+            "_tpl": "69488979e8a1ade6d39ec5cd",
+            "parentId": "697d29ef5aa88882796fe7b9",
+            "slotId": "soft_armor_right"
+          },
+		  {
+            "_id": "697d2a1cb5db8fa9b3d4e0d3",
+            "_tpl": "697d20a29b5b248272343e34",
+            "parentId": "697d29ef5aa88882796fe7b9",
             "slotId": "Groin"
           },
-          {
-            "_id": "6946eb7e67ba8110a6ddfd64",
+		  {
+            "_id": "697d371988e5430a3f7b7327",
+            "_tpl": "697d38614079923ea20069b1",
+            "parentId": "697d29ef5aa88882796fe7b9",
+            "slotId": "Collar"
+          },
+		  {
+            "_id": "697d371ebcfbac097e603151",
+            "_tpl": "697d38d8be027e0e6d7b7567",
+            "parentId": "697d29ef5aa88882796fe7b9",
+            "slotId": "Shoulder_l"
+          },
+		  {
+            "_id": "697d3721dd65476555058148",
+            "_tpl": "697d396e207e036291ee2363",
+            "parentId": "697d29ef5aa88882796fe7b9",
+            "slotId": "Shoulder_r"
+          },
+		  {
+            "_id": "697d2a1f8c131c80b97113e1",
             "_tpl": "656f9fa0498d1b7e3e071d98",
-            "parentId": "6946eb7e67ba8110a6ddfd60",
+            "parentId": "697d29ef5aa88882796fe7b9",
             "slotId": "Front_plate"
           },
           {
-            "_id": "6946eb7e67ba8110a6ddfd65",
+            "_id": "697d2a24f8a9f14c59a28744",
             "_tpl": "656f9fa0498d1b7e3e071d98",
-            "parentId": "6946eb7e67ba8110a6ddfd60",
+            "parentId": "697d29ef5aa88882796fe7b9",
             "slotId": "Back_plate"
           }
         ],

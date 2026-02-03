@@ -7,7 +7,7 @@
       "BackgroundColor": "violet",
       "Ergonomics": -3.5,
       "ConflictingItems": [],
-      "CanRequireOnRagfair": true,
+      "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
 	  "RarityPvE": "Superrare",
       "Cartridges": [

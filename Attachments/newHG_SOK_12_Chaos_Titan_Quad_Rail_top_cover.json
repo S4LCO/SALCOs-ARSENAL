@@ -6,7 +6,7 @@
     "overrideProperties": {
       "BackgroundColor": "violet",
       "ConflictingItems": [],
-      "CanRequireOnRagfair": true,
+      "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
       "Ergonomics": 0.5,
       "Recoil": -0.5

@@ -4,13 +4,13 @@
     "parentId": "55818af64bdc2d5b648b4570",
     "handbookParentId": "5b5f71de86f774093f2ecf13",
     "overrideProperties": {
-      "Accuracy": 1.5,
+      "Accuracy": 0,
       "BackgroundColor": "violet",
-      "Ergonomics": 7,
+      "Ergonomics": 9,
       "ConflictingItems": [],
-      "CanRequireOnRagfair": true,
+      "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
-      "Recoil": -4.5
+      "Recoil": -3.8
     },
     "locales": {
       "en": {
@@ -55,13 +55,13 @@
     "parentId": "55818af64bdc2d5b648b4570",
     "handbookParentId": "5b5f71de86f774093f2ecf13",
     "overrideProperties": {
-      "Accuracy": 1.5,
+      "Accuracy": 0,
       "BackgroundColor": "violet",
-      "Ergonomics": 7,
+      "Ergonomics": 9,
       "ConflictingItems": [],
       "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": false,
-      "Recoil": -4.5
+      "CanSellOnRagfair": true,
+      "Recoil": -3.8
     },
     "locales": {
       "en": {
@@ -106,13 +106,13 @@
     "parentId": "55818af64bdc2d5b648b4570",
     "handbookParentId": "5b5f71de86f774093f2ecf13",
     "overrideProperties": {
-      "Accuracy": 1.5,
+      "Accuracy": 0,
       "BackgroundColor": "violet",
-      "Ergonomics": 7,
+      "Ergonomics": 9,
       "ConflictingItems": [],
-      "CanRequireOnRagfair": true,
+      "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
-      "Recoil": -4.5
+      "Recoil": -3.8
     },
     "locales": {
       "en": {

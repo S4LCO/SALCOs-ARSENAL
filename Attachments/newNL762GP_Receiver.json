@@ -1,6 +1,6 @@
 {
-  "695f6b5795f913e348301276": {
-    "itemTplToClone": "6529119424cbe3c74a05e5bb",
+  "6980b04a1836381e93c178cf": {
+    "itemTplToClone": "68c294360f5ebd68290d6c16",
     "parentId": "55818a304bdc2db5418b457d",
     "handbookParentId": "5b5f764186f77447ec5d7714",
     "overrideProperties": {
@@ -10,19 +10,20 @@
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
       "Ergonomics": 5,
-      "Recoil": -1,
+      "Recoil": -2.5,
 	  "RarityPvE": "Superrare",
+	  "Velocity": 1,
       "Slots": [
         {
           "_name": "mod_barrel",
-          "_id": "59c663e986f7740cfb39760a",
-          "_parent": "695f6b5795f913e348301276",
+          "_id": "6980b13b02ed8bbef322317f",
+          "_parent": "6980b04a1836381e93c178cf",
           "_props": {
             "filters": [
               {
                 "Filter": [
-                  "652910565ae2ae97b80fdf35",
-				  "695f797fbc970a9b09104950"
+                  "60658776f2cb2e02a42ace2b",
+				  "6065878ac9cf8012264142fd"
                 ],
                 "Shift": 0
               }
@@ -34,8 +35,8 @@
         },
         {
           "_name": "mod_scope",
-          "_id": "6529119424cbe3c74a05e5bc",
-          "_parent": "695f6b5795f913e348301276",
+          "_id": "6980b143857b6f47e5cdfd7c",
+          "_parent": "6980b04a1836381e93c178cf",
           "_props": {
             "filters": [
               {
@@ -104,12 +105,15 @@
                   "6477772ea8a38bb2050ed4db",
                   "6478641c19d732620e045e17",
                   "64785e7c19d732620e045e15",
-                  "6567e751a715f85433025998",
-                  "655f13e0a246670fb0373245",
                   "65392f611406374f82152ba5",
                   "653931da5db71d30ab1d6296",
+                  "655f13e0a246670fb0373245",
+                  "6567e751a715f85433025998",
+                  "6761759e7ee06333f108bf86",
                   "67641a851b2899700609901a",
-                  "6761759e7ee06333f108bf86"
+                  "688a0bf28cdd409ce60911ce",
+                  "68caacc7933990601c07f479",
+                  "68a5ab09c44fa287ba0a97b5"
                 ],
                 "Shift": 0
               }
@@ -121,13 +125,28 @@
         },
         {
           "_name": "mod_handguard",
-          "_id": "6529119424cbe3c74a05e5be",
-          "_parent": "695f6b5795f913e348301276",
+          "_id": "6980b14acee9ad6f3f0873a7",
+          "_parent": "6980b04a1836381e93c178cf",
           "_props": {
             "filters": [
               {
                 "Filter": [
-                  "652910ef50dc782999054b97"
+                  "6065881d1246154cad35d637",
+                  "6065880c132d4d12c81fd8da",
+                  "5df916dfbb49d91fb446d6b9",
+                  "5f6336bbda967c74a42e9932",
+                  "5d00ede1d7ad1a0940739a76",
+                  "5d00ef6dd7ad1a0940739b16",
+                  "5a329052c4a28200741e22d3",
+				  "68c2989dc9061bb2f50478f6",
+                  "5c6d10e82e221601da357b07",
+                  "5bb20de5d4351e0035629e59",
+                  "5bb20dfcd4351e00334c9e24",
+                  "5bb20df1d4351e00347787d5",
+                  "5c6d11072e2216000e69d2e4",
+                  "5c6d10fa2e221600106f3f23",
+                  "5c6d11152e2216000f2003e7",
+                  "5c6c2c9c2e2216000f2002e4"
                 ],
                 "Shift": 0
               }
@@ -139,8 +158,8 @@
         },
         {
           "_name": "mod_sight_rear",
-          "_id": "6529119424cbe3c74a05e5bf",
-          "_parent": "695f6b5795f913e348301276",
+          "_id": "6980b14f03fae4e7c553dad0",
+          "_parent": "6980b04a1836381e93c178cf",
           "_props": {
             "filters": [
               {
@@ -164,35 +183,17 @@
           "_required": false,
           "_mergeSlotWithChildren": false,
           "_proto": "55d30c4c4bdc2db4468b457e"
-        },
-        {
-          "_name": "mod_mount",
-          "_id": "65293d2817e14363030ad30b",
-          "_parent": "695f6b5795f913e348301276",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5649a2464bdc2d91118b45a8"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
         }
       ]
     },
     "locales": {
       "en": {
-        "name": "MCX-SPEAR 6.8x51 upper receiver - #V2",
-        "shortName": "SPEAR 6.8 V2",
+        "name": "NL762 (GP) 7.62x39 upper receiver (FDE) - #V2",
+        "shortName": "NL762 GP",
         "description": ""
       }
     },
-    "fleaPriceRoubles": 89988,
+    "fleaPriceRoubles": 72154,
     "handbookPriceRoubles": 26588,
     "staticLootContainers": [
 

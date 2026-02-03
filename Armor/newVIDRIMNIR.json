@@ -32,7 +32,7 @@
         "description": "VIDRIMNIR originates from Norse mythology and is a kenning associated with Odin, roughly meaning ‘the one who is widely enclosed’ or ‘the far-encircled.’"
       }
     },
-    "fleaPriceRoubles": 15000000,
+    "fleaPriceRoubles": 5000000,
     "handbookPriceRoubles": 180000,
     "addtoBots": false,
     "addtoStaticLootContainers": false,

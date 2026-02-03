@@ -8,7 +8,7 @@
       "BackgroundColor": "violet",
       "Ergonomics": -3,
       "ConflictingItems": [],
-      "CanRequireOnRagfair": true,
+      "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
       "Cartridges": [
         {

@@ -1,95 +1,103 @@
 {
-  "69400cff349306c575b49325": {
-    "itemTplToClone": "6516e91f609aaf354b34b3e2",
-    "parentId": "55818a594bdc2db9688b456a",
-    "handbookParentId": "5b5f757486f774093e6cb507",
+  "6980e3f55baa17e150f863c9": {
+    "itemTplToClone": "5b057b4f5acfc4771e1bd3e9",
+    "parentId": "55818af64bdc2d5b648b4570",
+    "handbookParentId": "5b5f71de86f774093f2ecf13",
     "overrideProperties": {
-      "Accuracy": 1.5,
+      "Accuracy": 2,
       "BackgroundColor": "violet",
       "Ergonomics": 5,
       "ConflictingItems": [],
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
-      "Recoil": -24
+      "Recoil": -4.8
     },
     "locales": {
       "en": {
-        "name": "AR-15 Daniel Defense Enhanced Collapsible Buttstock (Black) - #V2",
-        "shortName": "DD ECB V2",
+        "name": "Stark SE-5 Express Forward foregrip (Black) - #V2",
+        "shortName": "SE5 V2",
         "description": ""
       }
     },
-    "fleaPriceRoubles": 91548,
-    "handbookPriceRoubles": 12777,
+    "fleaPriceRoubles": 138745,
+    "handbookPriceRoubles": 17845,
     "addtoBots": true,
     "addtoModSlots": true,
     "modSlot": [
-      "mod_stock_000"
+      "mod_foregrip"
     ],
     "addtoStaticLootContainers": true,
     "staticLootContainers": [
       {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 413
+      },
+      {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 481
+        "probability": 413
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 481
+        "probability": 413
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
-        "probability": 481
+        "probability": 413
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 481
+        "probability": 413
       }
     ]
   },
-  "69400eafb59d1033c84ab1d2": {
-    "itemTplToClone": "6516e971a3d4c6497930b450",
-    "parentId": "55818a594bdc2db9688b456a",
-    "handbookParentId": "5b5f757486f774093e6cb507",
+  "6980e459865b0e0217adbf5a": {
+    "itemTplToClone": "655df24fdf80b12750626d0a",
+    "parentId": "55818af64bdc2d5b648b4570",
+    "handbookParentId": "5b5f71de86f774093f2ecf13",
     "overrideProperties": {
-      "Accuracy": 1.5,
+      "Accuracy": 2,
       "BackgroundColor": "violet",
       "Ergonomics": 5,
       "ConflictingItems": [],
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
-      "Recoil": -24
+      "Recoil": -4.8
     },
     "locales": {
       "en": {
-        "name": "AR-15 Daniel Defense Enhanced Collapsible Buttstock (FDE) - #V2",
-        "shortName": "DD ECB V2",
+        "name": "Stark SE-5 Express Forward foregrip (FDE) - #V2",
+        "shortName": "SE5 V2",
         "description": ""
       }
     },
-    "fleaPriceRoubles": 82145,
-    "handbookPriceRoubles": 12777,
+    "fleaPriceRoubles": 132454,
+    "handbookPriceRoubles": 17845,
     "addtoBots": true,
     "addtoModSlots": true,
     "modSlot": [
-      "mod_stock_000"
+      "mod_foregrip"
     ],
     "addtoStaticLootContainers": true,
     "staticLootContainers": [
       {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 413
+      },
+      {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 481
+        "probability": 413
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 481
+        "probability": 413
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
-        "probability": 481
+        "probability": 413
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 481
+        "probability": 413
       }
     ]
   }

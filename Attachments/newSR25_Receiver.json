@@ -7,7 +7,7 @@
       "Accuracy": 1,
       "BackgroundColor": "violet",
       "ConflictingItems": [],
-      "CanRequireOnRagfair": true,
+      "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
       "Ergonomics": 6,
       "Recoil": -1,

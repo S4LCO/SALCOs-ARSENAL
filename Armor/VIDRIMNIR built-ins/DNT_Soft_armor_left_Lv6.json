@@ -7,8 +7,8 @@
     "overrideProperties": {
 	  "ArmorMaterial": "UHMWPE",
       "armorClass": "6",
-      "Durability": 40,
-      "MaxDurability": 40,
+      "Durability": 30,
+      "MaxDurability": 30,
       "BluntThroughput": 0.32
     },
 

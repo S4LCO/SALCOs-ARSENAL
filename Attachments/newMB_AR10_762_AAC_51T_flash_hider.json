@@ -9,7 +9,7 @@
       "DurabilityBurnModificator": 1.05,
       "Ergonomics": -1.5,
       "ConflictingItems": [],
-      "CanRequireOnRagfair": true,
+      "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
       "RarityPvE": "Rare",
       "Recoil": -4,

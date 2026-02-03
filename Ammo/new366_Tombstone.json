@@ -10,7 +10,7 @@
       "BackgroundColor": "red",
 	  "CanRequireOnRagfair": true,
       "CanSellOnRagfair": true,
-      "Damage": 95,
+      "Damage": 85,
       "DurabilityBurnModificator": 2.1,
       "FragmentationChance": 0.01,
       "FragmentsCount": 0,
@@ -38,7 +38,7 @@
         "description": ""
       }
     },
-    "fleaPriceRoubles": 1644,
+    "fleaPriceRoubles": 1899,
     "handbookPriceRoubles": 980,
     "addtoBots": true,
     "addCaliberToAllCloneLocations": true,

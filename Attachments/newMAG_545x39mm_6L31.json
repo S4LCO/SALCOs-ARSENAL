@@ -7,7 +7,7 @@
       "BackgroundColor": "violet",
       "Ergonomics": -7,
       "ConflictingItems": [],
-      "CanRequireOnRagfair": true,
+      "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
       "CheckTimeModifier": 8,
       "RarityPvE": "Rare",

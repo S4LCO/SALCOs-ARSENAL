@@ -1,0 +1,137 @@
+{
+  "697b7e8226d17c63a0e9008c": {
+    "itemTplToClone": "60a3c70cde5f453f634816a3",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+	  "Prefab": {
+        "path": "assets/content/items/equipment/rig_carriertactec/item_equipment_rig_carriertactec.bundle",
+        "rcid": ""
+      },
+	  "ArmorMaterial": "Aramid",
+	  "ArmorType": "Light",
+      "BackgroundColor": "violet",
+	  "Height": 4,
+	  "Width": 3,
+      "CanRequireOnRagfair": true,
+      "CanSellOnRagfair": true,
+	  "mousePenalty": -0.5,
+	  "speedPenaltyPercent": -3,
+	  "weaponErgonomicPenalty": -1
+    },
+    "locales": {
+      "en": {
+        "name": "5.11 Tactical TacTec plate carrier (Ranger Green) - #V2",
+        "shortName": "TacTec V2",
+        "description": "Version 2 with improved built-in armor."
+      }
+    },
+    "fleaPriceRoubles": 327899,
+    "handbookPriceRoubles": 151651,
+    "addtoBots": true,
+    "addtoStaticLootContainers": true,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "6946eb7e67ba8110a6ddfd5f",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "5.11 Tactical TacTec plate carrier (Ranger Green) - #V2 (Standard)",
+        "_parent": "697b7d76c383783d1eb0189e",
+        "_items": [
+          {
+            "_id": "697b7d76c383783d1eb0189e",
+            "_tpl": "697b7e8226d17c63a0e9008c"
+          },
+          {
+            "_id": "697b7e567f8aeea3647c1e5a",
+            "_tpl": "6946ebb44e3088ef0bb4dfbe",
+            "parentId": "697b7d76c383783d1eb0189e",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "697b7e5f239652b016a2f7bd",
+            "_tpl": "6946ebbacf8f3b61ff54d3eb",
+            "parentId": "697b7d76c383783d1eb0189e",
+            "slotId": "Soft_armor_back"
+          },
+		  {
+            "_id": "697b7e6232abbe608ced63e0",
+            "_tpl": "6948892f9bd70f7bb323cbaf",
+            "parentId": "697b7d76c383783d1eb0189e",
+            "slotId": "Soft_armor_left"
+          },
+		  {
+            "_id": "697b7e66a15d06d18da2657e",
+            "_tpl": "69488979e8a1ade6d39ec5cd",
+            "parentId": "697b7d76c383783d1eb0189e",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "697b7e6a9b3d197c619b48c5",
+            "_tpl": "6946ebc505411b23e69d540f",
+            "parentId": "697b7d76c383783d1eb0189e",
+            "slotId": "Groin"
+          },
+          {
+            "_id": "697b7e6dc32e4507904ce256",
+            "_tpl": "656f9fa0498d1b7e3e071d98",
+            "parentId": "697b7d76c383783d1eb0189e",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "697b7e6f54e6d478f5c7d9d2",
+            "_tpl": "656f9fa0498d1b7e3e071d98",
+            "parentId": "697b7d76c383783d1eb0189e",
+            "slotId": "Back_plate"
+          },
+		  {
+            "_id": "697b7e729850b98af806e0cc",
+            "_tpl": "6570fb8f4c65ab77a601514d",
+            "parentId": "697b7d76c383783d1eb0189e",
+            "slotId": "Collar"
+          },
+		  {
+            "_id": "697b7e76721893f99a7423ad",
+            "_tpl": "6570fbdd74d84423df065f60",
+            "parentId": "697b7d76c383783d1eb0189e",
+            "slotId": "Shoulder_l"
+          },
+		  {
+            "_id": "697b7e79e956c66e3194aee6",
+            "_tpl": "6570fc41d3eefd23430f8c83",
+            "parentId": "697b7d76c383783d1eb0189e",
+            "slotId": "Shoulder_r"
+          }
+        ],
+        "_encyclopedia": "697b7e8226d17c63a0e9008c"
+      }
+    ],
+    "staticLootContainers": [
+      {
+        "probability": 410,
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE"
+      },
+      {
+        "probability": 410,
+        "containerName": "LOOTCONTAINER_DEAD_SCAV"
+      },
+      {
+        "probability": 410,
+        "containerName": "LOOTCONTAINER_DEAD_SCAV_4X4_2"
+      },
+      {
+        "probability": 410,
+        "containerName": "LOOTCONTAINER_FESTIVE_AIRDROP_SUPPLY_CRATE"
+      },
+      {
+        "probability": 410,
+        "containerName": "LOOTCONTAINER_PMC_BODY"
+      },
+      {
+        "probability": 410,
+        "containerName": "LOOTCONTAINER_SCAV_BODY"
+      }
+    ]
+  }
+}

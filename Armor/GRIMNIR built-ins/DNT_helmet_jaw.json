@@ -9,8 +9,8 @@
       "armorClass": "6",
 	  "CanRequireOnRagfair": true,
       "CanSellOnRagfair": true,
-      "Durability": 50,
-      "MaxDurability": 50,
+      "Durability": 45,
+      "MaxDurability": 45,
       "BluntThroughput": 0.1726
     },
 

@@ -1,59 +1,55 @@
 {
-  "695a9eeb3b654dfbcd01c0d7": {
-    "itemTplToClone": "59fb257e86f7742981561852",
-    "parentId": "550aa4cd4bdc2dd8348b456c",
-    "handbookParentId": "5b5f731a86f774093e6cb4f9",
+  "697e659184369a673d6f9149": {
+    "itemTplToClone": "544a37c44bdc2d25388b4567",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
     "overrideProperties": {
-      "Accuracy": 1,
       "BackgroundColor": "violet",
+      "Ergonomics": -7,
       "ConflictingItems": [],
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
-	  "CoolFactor": 1.04,
-      "DurabilityBurnModificator": 1.62,
-      "Ergonomics": -14,
-      "HeatFactor": 1.14,
-      "Loudness": -65,
-      "RarityPvE": "Superrare",
-      "Recoil": -15,
-	  "Velocity": 0.9
+      "CheckTimeModifier": 8,
+      "RarityPvE": "Rare",
+      "LoadUnloadModifier": 10,
+      "MalfunctionChance": 0.023
     },
     "locales": {
       "en": {
-        "name": "Zenit DTK-4M multi caliber sound suppressor",
-        "shortName": "DTK-4M",
+        "name": "AR-15 5.56x45/.300 Blackout SureFire MAG5-60 STANAG 60-round magazine - #V2",
+        "shortName": "MAG5-60 V2",
         "description": ""
       }
     },
-    "fleaPriceRoubles": 99874,
-    "handbookPriceRoubles": 48413,
+    "fleaPriceRoubles": 79842,
+    "handbookPriceRoubles": 25455,
     "addtoBots": true,
     "addtoModSlots": true,
     "modSlot": [
-      "mod_muzzle"
+      "mod_magazine"
     ],
     "addtoStaticLootContainers": true,
     "addtoTraders": false,
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_DEAD_SCAV",
-        "probability": 529
+        "probability": 541
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 529
+        "probability": 541
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "probability": 529
+        "probability": 541
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
-        "probability": 529
+        "probability": 541
       },
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "probability": 529
+        "probability": 541
       }
     ]
   }

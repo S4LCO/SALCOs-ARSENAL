@@ -8,7 +8,7 @@
       "BackgroundColor": "violet",
       "Ergonomics": 13,
       "ConflictingItems": [],
-      "CanRequireOnRagfair": true,
+      "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
       "Recoil": -1,
       "RarityPvE": "Rare"
