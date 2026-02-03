@@ -17,16 +17,15 @@ public sealed record ModMetadata : AbstractModMetadata
     public override string ModGuid { get; init; } = "de.salco.salcosarsenalv2";
     public override string Name { get; init; } = "Salco's Arsenal";
     public override string Author { get; init; } = "Salco";
-    public override SemanticVersioning.Version Version { get; init; } = new("1.0.3");
+    public override SemanticVersioning.Version Version { get; init; } = new("1.0.4");
     public override SemanticVersioning.Range SptVersion { get; init; } = new("~4.0.3");
     public override string License { get; init; } = "MIT";
     public override bool? IsBundleMod { get; init; } = true;
 
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
     {
-        ["com.wtt.commonlib"] = new Range("~2.0.14"),
-		["com.wtt.contentbackport"] = new Range("~1.0.4"),
-		
+        ["com.wtt.commonlib"] = new Range("~2.0.15"),
+        ["com.wtt.contentbackport"] = new Range("~1.0.4"),
     };
 
     public override string? Url { get; init; }
@@ -64,15 +63,6 @@ public sealed class SalcosArsenalMod(
             await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly, Path.Join(folder));
         }
 
-        try
-        {
-            BuiltInPlatePatcher.Apply(databaseService);
-        }
-        catch
-        {
-            // IMPORTANT: Never crash server because of optional runtime patches.
-        }
-
         await wttCommon.CustomHideoutRecipeService.CreateHideoutRecipes(assembly, Path.Join("Recipes"));
 
         try
@@ -83,15 +73,7 @@ public sealed class SalcosArsenalMod(
         {
             // IMPORTANT: Compat layer must never stop startup.
         }
-		try
-		{
-			BallisticPlateCompat.Apply(databaseService);
-		}
-		catch
-		{
-			// IMPORTANT: Never crash server because of global compat patches.
-		}
 
-        logger.LogInformation("[SALCO'S ARSENAL v1.0.3 successfully loaded]");
+        logger.LogInformation("[SALCO'S ARSENAL v1.0.4 successfully loaded]");
     }
 }
